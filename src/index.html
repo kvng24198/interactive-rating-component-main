@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="bg--950 bg-black text-gray-400 text-[12px] flex justify-center items-center h-screen"
+  >
+    <div
+      class="container flex flex-col justify-center w-[300px] p-[20px] bg-gray-800 rounded-[10px]"
+    >
+      <div class="rating">
+        <img
+          class="w-[25px] p-[5px] rounded-full bg-gray-600 mb-[15px]"
+          src="./images/icon-star.svg"
+          alt="icon-star"
+        />
+      </div>
+      <h2 class="font-bold text-[17px] text-white mb-[10px]">how did we do?</h2>
+      <p class="mb-[10px]">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <ul class="flex justify-between items-center mb-[15px]">
+        <li
+          class="rounded-full bg-gray-600 w-[30px] h-[30px] text-center p-[7px]"
+        >
+          1
+        </li>
+        <li
+          class="rounded-full bg-gray-600 w-[30px] h-[30px] text-center p-[7px]"
+        >
+          2
+        </li>
+        <li
+          class="rounded-full bg-gray-600 w-[30px] h-[30px] text-center p-[7px]"
+        >
+          3
+        </li>
+        <li
+          class="rounded-full bg-gray-600 w-[30px] h-[30px] text-center p-[7px] active:bg-white active:text-gray-900 active:font-semibold"
+        >
+          4
+        </li>
+        <li
+          class="rounded-full bg-gray-600 w-[30px] h-[30px] text-center p-[7px] active:bg-orange-600 active:text-gray-900 active:font-semibold"
+        >
+          5
+        </li>
+      </ul>
+      <input
+        class="bg-orange-500 w-[250px] h-[25px] rounded-[15px] p-[5px] self-center text-black font-semibold active:bg-white active:text-gray-900"
+        type="submit"
+        value="Submit"
+      />
+    </div>
+  </body>
+</html>
